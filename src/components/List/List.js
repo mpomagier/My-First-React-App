@@ -2,7 +2,7 @@ import styles from "./List.module.scss";
 
 const List = () => {
   return (
-    <div className={styles.list}>
+    <div className={styles.List}>
       <header className={styles.header}>
         <h2 className={styles.title}>
           Things to do<span className={styles.span}>soon!</span>
