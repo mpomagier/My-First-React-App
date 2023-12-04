@@ -4,10 +4,11 @@ const TextInput = (props) => {
   return (
     <input
       className={styles.input}
+      value={props.value}
+      onChange={props.onChange}
       placeholder={props.placeholder}
-      text={props.text}
+      type="text"
     />
   );
 };
-
 export default TextInput;
