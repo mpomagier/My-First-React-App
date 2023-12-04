@@ -9,7 +9,7 @@ const ColumnForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    props.action({ title: title }, props.columnId);
+    props.action({ title: title, icon: icon }, props.columnId);
     setTitle("");
     setIcon("");
   };
